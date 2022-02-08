@@ -1,0 +1,7 @@
+<h2>Einkaufsliste</h2>
+<p>Deine IP-Adresse ist: <strong>{{this.ipAddress}}</strong></p>
+<div class="shopping-item" *ngFor="let item of this.items ">
+    <span>{{ item.name }}</span>
+    <span>{{ item.quantity | number }}</span>
+</div>
+<span *ngIf="isLoading">Wird geladen ...</span>
