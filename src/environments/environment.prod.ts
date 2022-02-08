@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true, 
+  apiUrl: "https://slist-server.azurewebsites.net/api"
 };
